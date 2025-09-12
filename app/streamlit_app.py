@@ -20,14 +20,14 @@ def md_safe(text: str) -> str:
 
 # -------- Parâmetros FIXOS (back) --------
 N_FIXED = 87962
-L_S1_BASE_BI = 6.81   # R$ bi (1º semestre base)
-L_A_BASE_BI  = 14.97   # R$ bi (anual base)
+L_S1_BASE_BI = 6.5   # R$ bi (1º semestre base)
+L_A_BASE_BI  = 14.9   # R$ bi (anual base)
 
 # ----- Calibração (fixo no back) -----
-ALPHA_S1_EFF = 0.02915   # ~3,415% do lucro semestral / empregado
-BETA_A_EFF   = 0.06014   # ~6,414% do lucro anual / empregado
+ALPHA_S1_EFF = 0.02915   
+BETA_A_EFF   = 0.06014   
 
-MULTS = {"Pessimista": 0.8489, "Realista": 1.0013, "Otimista": 1.3041}
+MULTS = {"Pessimista": 0.8489, "Realista": 1.00, "Otimista": 1.3041}
 REGRA_FIXA = "proporcional"
 
 # --- Header: logo CAIXA em cima, título embaixo (com gap controlado) ---

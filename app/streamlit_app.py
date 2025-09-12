@@ -98,7 +98,7 @@ if submit:
         if S <= 0:
             erros.append("O salário deve ser maior que zero.")
     except Exception:
-        erros.append("Não consegui interpretar o salário. Use algo como 'R$ 7.730,00'.")
+        erros.append("Não consegui entender o salário. Use algo como 'R$ 7.730,00'.")
 
     if erros:
         st.error(" • ".join(erros))

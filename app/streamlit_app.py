@@ -20,8 +20,8 @@ def md_safe(text: str) -> str:
 
 # -------- Parâmetros FIXOS (back) --------
 N_FIXED = 87962
-L_S1_BASE_BI = 6.5   # R$ bi (1º semestre base)
-L_A_BASE_BI  = 14.9   # R$ bi (anual base)
+L_S1_BASE_BI = 8.9   # R$ bi (1º semestre base)
+L_A_BASE_BI  = 15.9   # R$ bi (anual base)
 
 # ----- Calibração (fixo no back) -----
 ALPHA_S1_EFF = 0.02915   

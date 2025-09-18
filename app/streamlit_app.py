@@ -19,7 +19,7 @@ def md_safe(text: str) -> str:
                 .replace("_", "\\_"))
 
 # -------- Parâmetros FIXOS (back) --------
-N_FIXED = 87962
+N_FIXED = 89962
 L_S1_BASE_BI = 8.9   # R$ bi (1º semestre base)
 L_A_BASE_BI  = 15.9   # R$ bi (anual base)
 
